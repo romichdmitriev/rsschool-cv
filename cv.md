@@ -6,6 +6,8 @@ Last name:Dmitriev
 
 Contacts:  
 Email: education.romichdmitriev@gmail.com  
+Telegram: [@romichdmitriev](https://t.me/romichdmitriev)  
+Vkontakte: [id73845237](https://vk.com/id73845237)  
 Phone: +7-986-933-0652
 
 ### About me
