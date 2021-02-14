@@ -5,11 +5,159 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Include Font Awesome Icons -->
+	<link rel="stylesheet" href="libs/font-awesome/css/all.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<!--Include Google Fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
 	<title>HTML, CSS & Git Basics</title>
 </head>
-<body>
+<body id="home">
 
+	<div class="wrapper">
+
+		<div class="centered-content-container">
+
+			<aside class="sidebar">
+
+				<div class="sidebar__profile profile">
+
+					<div class="profile__img-container">
+					</div>
+				</div>
+
+				<nav class="sidebar__nav nav">
+
+					<a href="#about-me" class="nav__link">
+						<span class="nav__link-text">About</span>
+					</a>
+
+					<a href="#skills" class="nav__link">
+						<span class="nav__link-text">Skills</span>
+					</a>
+
+					<a href="#code" class="nav__link">
+						<span class="nav__link-text">Code</span>
+					</a>
+
+					<a href="#projects" class="nav__link">
+						<span class="nav__link-text">Projects</span>
+					</a>
+
+					<a href="#education" class="nav__link">
+						<span class="nav__link-text">Education</span>
+					</a>
+
+					<a href="#english" class="nav__link">
+						<span class="nav__link-text">English</span>
+					</a>
+				</nav>
+
+				<div class="profile__contacts">
+
+					<a class="profile__contacts-icon" href="https://t.me/romichdmitriev" target="_blank">
+						<i class="fab fa-telegram-plane"></i>
+					</a>
+
+					<a class="profile__contacts-icon" href="https://vk.com/id73845237" target="_blank">
+						<i class="fab fa-vk"></i>
+					</a>
+
+					<a class="profile__contacts-icon" href="https://github.com/romichdmitriev" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+
+					<div class="phone-number">
+						+7-986-933-06-52
+					</div>
+				</div>
+			</aside>
+
+			<main class="content">
+
+				<section class="content__block content__about">
+
+					<h2 class="content__title" id="about-me">About me</h2>
+
+					<p class="content__text"><b>First name:</b> Roman</p>
+					<p class="content__text"><b>Last name:</b> Dmitriev</p>
+					<p class="content__text"><b>My goal:</b> get Junior frontend-developer skills and start to develop cool web-applications</p>
+					<p class="content__text"><b>Advantages:</b> desire to code and to develop  </p>
+					<p class="content__text"><b>Job's experience:</b> I don't have any experience in frontend-development, currently I am working as CNC machinist of grinding and milling machines now</p>
+					<p class="content__text content__about-quote">Reason for why I want change my profession in my desire to code, because I don't like to work with metalworking, I like to code(refer to machines - it is G-codes).</p>
+				</section>
+
+
+				<section class="content__block">
+
+					<h2 class="content__title" id="skills">Skills</h2>
+
+					<ul class="content__skills-list">
+						<li>HTML5, CSS3</li>
+						<li>Javascript</li>
+						<li>Bootstrap 4</li>
+						<li>SCSS</li>
+						<li>Git</li>
+						<li>JetBrains WebStorm</li>
+						<li>BEM</li>
+						<li>basics of MVC</li>
+					</ul>
+				</section>
+
+				<section class="content__block content__code">
+
+					<h2 class="content__title" id="code">Code</h2>
+
+					<img class="content__code-img" src="img/code.jpg" alt="example of code" width="600">
+				</section>
+
+				<section class="content__block">
+
+					<h2 class="content__title" id="projects">Learning Projects</h2>
+
+					<a class="content__project-link" href="https://github.com/AlexanderMentor/RomanMentee/tree/master/src/library_mvc" target="_blank">Library MVC</a>
+
+					<p class="content__text">Project in stage of creating</p>
+				</section>
+
+				<section class="content__block content__education">
+
+					<h2 class="content__title" id="education">Education</h2>
+
+					<p class="content__text"><b>University:</b> Kazan National Research Technical university named by A.N.Tupolev</p>
+
+					<p class="content__text"><b>Specialization:</b> Design and technological support of machine-building industries</p>
+
+					<p class="content__text"><b>Courses:</b></p>
+
+					<ul>
+						<li>HTML Academy (basics of HTML and CSS)</li>
+						<li>The Odin Project (Linux commands, HTML and CSS cheatcheets)</li>
+						<li>self-taugh studying with mentor</li>
+					</ul>
+				</section>
+
+				<section class="content__block">
+
+					<h2 class="content__title" id="english">English Level</h2>
+
+					<p class="content__text"><b>A2 Pre-Intermediate</b></p>
+
+					<ul>
+						<li>speaking on basic topics</li>
+						<li>reading of technical documentation, sometimes using dictionary</li>
+						<li>watching Youtube tutorials on English (ex. Traversy Media, WebDev Simplified)</li>
+						<li>language practice only in social media with other native speakers and with english tutor, who was from Republic of South Africa</li>
+					</ul>
+				</section>
+
+				<a class="content__back-button" href="#home">
+					<i class="fas fa-chevron-left"></i>
+				</a>
+			</main>
+		</div>
+	</div>
 </body>
 </html>
