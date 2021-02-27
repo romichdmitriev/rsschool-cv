@@ -115,9 +115,10 @@ li {
 	bottom: 0;
 	display: flex;
 	justify-content: space-around;
+	list-style-type: none;
 }
 
-.profile__contacts-icon {
+.profile__contacts-item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -129,7 +130,7 @@ li {
 	background-color: #fff;
 }
 
-.profile__contacts-icon:first-child {
+.profile__contacts-item:first-child {
 	margin-left: 0;
 }
 
