@@ -111,7 +111,7 @@ li {
 
 /*Sidebar contacts*/
 .profile__contacts {
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	display: flex;
 	justify-content: space-around;
@@ -135,7 +135,7 @@ li {
 }
 
 .phone-number {
-	position: fixed;
+	position: absolute;
 	bottom: 80px;
 	display: flex;
 	justify-content: center;
